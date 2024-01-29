@@ -1,0 +1,26 @@
+.toggle-container{
+  position: absolute;
+  top:1.8em;
+  right: 2em;
+  z-index: 1;
+  position: fixed;
+}
+.toggle{
+  visibility: hidden;
+}
+
+
+@media (max-width: 800px) {
+  .toggle-container{
+    display: none;
+  }
+ 
+}
+
+
+
+
+
+
+
+

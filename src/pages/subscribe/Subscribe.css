@@ -1,0 +1,36 @@
+input{
+  background-color: transparent;
+  border: none;
+  border-bottom:var(--foreground-color) solid 2px ;
+  padding:20px 0;
+  width: 100%;
+}
+.btnsub {
+  display: flex;
+  margin-top: 20px;
+width: 100%;
+height: 50px;
+padding: 12.017px 32.044px;
+justify-content: center;
+align-items: center;
+gap: 10.014px;
+flex-shrink: 0;
+background-color: var(--foreground-color);
+}
+.btnsub a{
+  color: wheat;
+  font-family: Inter;
+  font-size: 16.022px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24.033px; /* 150% */
+}
+@media (max-width: 1000px) {
+  .subscribe{
+    flex-direction: column;
+  }
+  .leftsub{
+    margin-bottom: 30px;
+  }
+
+}

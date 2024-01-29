@@ -1,0 +1,96 @@
+.perint{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 150px;
+/* z-index: -1; */
+}
+.perint .texts{
+  padding-left: 30px;
+}
+.perint .texts .btn-1{
+/* background-color: var(--foreground-color); */
+border:  1px solid var(--foreground-color);
+/* background-color: aqua; */
+display: inline-flex;
+height: 40px;
+padding: 10.014px;
+justify-content: center;
+align-items: center;
+gap: 10.014px;
+flex-shrink: 0;
+}
+.perint .texts .btn-1 a{
+  /* color: var(--primary-text-color); */
+  color:var(--foreground-color);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.028px; /* 143.056% */
+}
+
+.perint .texts .title{
+  color: var(--primary-text-color);
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+margin: 15px 0;
+}
+.perint .texts .para{
+  color: var(--primary-text-color);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+max-width: 66%;
+margin: 15px 0;
+}
+.perint .texts .btn-2{
+  border-radius: 2.003px;
+background: var(--foreground-color);
+display: flex;
+width: 185px;
+height: 45px;
+padding: 12.017px 32.044px;
+justify-content: center;
+align-items: center;
+gap: 10.014px;
+flex-shrink: 0;
+}
+.perint .texts .btn-2 a{
+  color: wheat;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24.033px;
+}
+.perint .imges{
+
+  padding-right: 30px;
+}
+ .perint.imges img{
+
+ max-width: 100%;
+}
+@media (max-width: 920px) {
+.perint{
+  flex-direction: column;
+}
+.texts .para{
+min-width: 100%;
+padding: 0px 20px;
+}
+.perint .imges img{
+  max-width: 100%;
+  margin-top: 20px;
+}
+.perint .texts{
+  padding-top: 30px;
+}
+
+}

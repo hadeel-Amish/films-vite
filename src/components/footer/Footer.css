@@ -1,0 +1,14 @@
+.footer{
+  background-color: var(--background-color);
+  padding-top: 30px;
+}
+.footer h1{
+  color: var(--primary-text-color);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24.033px; /* 171.667% */
+text-align: center;
+padding: 20px 0;
+}
